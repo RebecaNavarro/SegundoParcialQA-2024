@@ -20,9 +20,10 @@ public class BasicAuthTestBaseUser {
         body.put("Email",new Date().getTime()+"@upb2028.com");
         body.put("FullName","upb2");
         body.put("Password","12345!");
+        body.put("Content","UPB2024");
 
-        auth="Authorization";
-        valueAuth="Token"+ response.getHeader("https://todo.ly/api/authentication/token.json");
+//        auth="Authorization";
+//        valueAuth="Token"+tokenResponse;
 
     }
 }
